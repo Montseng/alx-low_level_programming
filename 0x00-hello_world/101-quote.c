@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * C program that prints and moves to the next line
+ * main - C program that prints and moves to the next line
  *
  * Return: 0
 */
