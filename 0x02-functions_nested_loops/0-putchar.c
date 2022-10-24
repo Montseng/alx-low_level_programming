@@ -1,19 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Write a program that prints putchar, followed by a new line.
+ * main - print _putchar
  *
- * Return: 0
+ * Return - 0
  */
+
 int main(void)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		_putchar(letter);
-	}
-	_putchar('\n');
-
-	return (0);
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
+return (0);
 }
