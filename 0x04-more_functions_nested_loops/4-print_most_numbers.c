@@ -5,15 +5,14 @@
  * Do not print 2 and 4.
  *
  * Return: void
- */
-
+*/
 void print_most_numbers(void)
 {
-	char c;
+	int ch;
 
-	for (c = '0'; c <= '9'; c++
+	for (ch = 48; ch <= 58; c++)
 	{
-		if (!(c == '2' || c == '4'))
+		if (ch != '50' && ch != '52')
 			_putchar(c);
 	}
 	_putchar('\n');
